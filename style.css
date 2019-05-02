@@ -3,5 +3,158 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
-	
+	text-decoration: none;
+	list-style: none;	
 }
+body {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+.containerLove{
+	width: 100vw;
+	height: 72vh;
+	display: flex;
+	flex-direction: row;
+	background-color: #EFF6F8;
+}
+.containerLove__blockone {
+	width: 50vw;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.containerLove__img {
+	height: 500px;
+}
+.containerLove__blocktwo {
+	width: 40vw;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.containerLove__paragrafo {
+	width: 23vw;
+	font-size: 16px;
+}
+.containerObjetivos {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.containerObjetivos__blockone {
+	width: 30vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.containerObjetivos__blocktwo {
+	width: 70vw;
+	height: 90vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 80px;
+}
+.containerObjetivos__title {
+	width: 50vw;
+	font-size: 25px;
+	color: #D63727;
+	margin-top: 30px;
+}
+.containerObjetivos__img {
+	width: 695px;
+}
+.containerProdutos {
+	width: 100%;
+	height: 55vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #EFF6F8;
+}
+.containerProdutos__blockImg {
+	width: 60vw;
+	height: 55vh;
+}
+.containerProdutos__img {
+	height: 370px;
+	margin-left: 100px;
+}
+.containerProdutos__blockList {
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.containerProdutos__paragrafo {
+	width: 16vw;
+	font-size: 18px;
+	color: #3E4D4F;
+}
+li {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3E4D4F;
+}
+/*.containerFooter {
+	width: 100vw;
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	background-color: #DA3F30; 
+	padding: 140px;
+}
+.containerFooter__blockMissao {
+	width: 33vw;
+	color: #fff;
+	font-weight: 600;
+}
+.containerFooter__paragrafo {
+	width: 20vw;
+}
+.containerFooter__block {
+	width: 25vw;
+	color: #fff;
+	font-weight: 600;
+}
+.containerFooter__blockNetwork{
+	display: flex;
+	padding-top: 25px;
+}
+.containerFooter__networkLogo {
+	height: 20px;
+	margin-right: 5px;
+}
+.containerFooter__blockPhoto {
+	width: 22vw;
+}
+.containerFooter__img {
+	height: 200px;
+}
+.containerFooter__imgtwo {
+	height: 200px;
+}
+.containerFooter_prgfinal {
+	height: 8vh;
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	padding: 15px;
+}
+.containerFooter__logo {
+	height: 30px;
+}
+*/
