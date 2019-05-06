@@ -18,94 +18,52 @@ main {
 }
 .containerLove{
 	width: 100%;
-	height: 26%;
+	height: 72vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #EFF6F8;
 }
-@media (max-width: 768px) {
-	.containerLove {
-		width: 100%;
-		height: 85vh;
-		flex-direction: column;
-	}
 
-}
-.containerLove__blockone {
+.containerLove__blockfirst {
 	width: 50vw;
-	height: 60vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-@media (max-width: 768px) {
-	.containerLove__blockone{
-		width: 100vw;
-		height: 70vh;
-	}
-}
 .containerLove__img {
 	height: 455px;
 }
-.containerLove__blocktwo {
+.containerLove__blocksecond {
 	width: 40vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
-@media (max-width: 768px) {
-	.containerLove__blocktwo{
-		width: 100vw;
-	}
-}
 .containerLove__paragrafo {
-	width: 23vw;
+	width: 300px;
 	font-size: 16px;
 }
-@media (max-width: 768px) {
-	.containerLove__paragrafo{
-		width: 50vw;
-	}
-}
 .containerObjetivos {
+	width: 100%;
 	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: row;
 }
-@media (max-width: 768px) {
-	.containerObjetivos {
-		width: 100vw;
-		height: 70vh
-	}
-
-}
-.containerObjetivos__blockone {
+.containerObjetivos__blockfirst {
 	width: 30vw;
-	height: 100vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
 }
-@media (max-width: 768px) {
-	.containerObjetivos__blockone {
-		width: 100vw;
-		height: 20vh;
-		flex-direction: row;
-	}
-
-}
 .containerObjetivos__photos {
-	height: 200px;
+	height: 190px;
 }
-@media (max-width: 768px) {
-	.containerObjetivos__photos {
-		height: 150px;
-	}
-}
-.containerObjetivos__blocktwo {
+.containerObjetivos__blocksecond {
 	width: 65vw;
 	height: 90vh;
 	display: flex;
@@ -113,37 +71,14 @@ main {
 	flex-direction: column;
 	margin-top: 80px;
 }
-@media (max-width: 768px) {
-	.containerObjetivos__blocktwo {
-		width: 100vw;
-	}
-
-}
 .containerObjetivos__title {
-	width: 50vw;
+	width: 40vw;
 	font-size: 25px;
 	color: #D63727;
 	margin-top: 30px;
 }
-@media (max-width: 768px) {
-	.containerObjetivos__title {
-		width: 73	vw;
-		font-size: 17px;
-		margin-top: 0;
-	}
-
-}
-.containerObjetivos__img {
-	width: 650px;
-}
-@media (max-width: 887px) {
-	.containerObjetivos__img {
-	width: 540px;
-}
-@media (max-width: 768px) {
-	.containerObjetivos__img {
-		width: 500px;
-	}
+.containerObjetivos__table {
+	width: 575px;
 }
 .containerProdutos {
 	width: 100%;
@@ -153,64 +88,58 @@ main {
 	align-items: center;
 	background-color: #EFF6F8; 
 }
-@media (max-width: 768px) {
-	.containerProdutos {
-		width: 100vw;
-		height: 30vh;
-	}
-}
-@media (max-width: 425px) {
-	.containerProdutos {
-		flex-direction: column;
-	}
-}
-.containerProdutos__blockImg {
-	width: 60vw;
+.containerProdutos__blockfirst {
+	width: 70%;
 	height: 55vh;
-}
-@media (max-width: 768px) {
-	.containerProdutos__blockImg {
-		width: 50vw;
-	}
 }
 .containerProdutos__img {
 	height: 380px;
 }
-@media (max-width: 768px) {
-	.containerProdutos__img {
-		height: 175px;
-	}
-}
 .containerProdutos__blockList {
-	width: 35vw;
+	width: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 	flex-direction: column;
-}
-@media (max-width: 768px) {
-	.containerProdutos__blockList{
-		width: 40vw;
-	}
 }
 .containerProdutos__paragrafo {
 	width: 16vw;
 	font-size: 18px;
 	color: #3E4D4F;
 }
-@media (max-width: 768px) {
-	.containerProdutos__paragrafo {
-		width: 30vw;
-		font-size: 14px;
-	}
-}
 li {
 	font-size: 18px;
 	font-weight: bold;
 	color: #3E4D4F;
 }
-@media (max-width: 768px){
-	li {
-		font-size: 14px;
+@media (max-width: 768px) {
+	.containerLove {
+		height: 135vh;
+		flex-direction: column;
+		background-color: red;
 	}
+	.containerObjetivos__blockfirst {
+		width: 100%;
+		height: 35vh;
+		flex-direction: row;
+		background-color: blue;
+	}
+	.containerObjetivos__blocksecond {
+		width: 100%;
+		height: 90vh;
+		background-color: pink;
+		margin: 0;
+	}
+	.containerObjetivos__title {
+		width: 65%;
+		margin: 0;
+	}
+	.containerProdutos {
+		width: 100%;
+		height: 55vh;
+		background-color: yellow;
+	}
+	.containerProdutos__img {
+		height: 302px;
+}
 }
