@@ -18,7 +18,7 @@ main {
 }
 .containerLove{
 	width: 100%;
-	height: 72vh;
+	height: 71vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,7 +32,7 @@ main {
 	align-items: center;
 }
 .containerLove__img {
-	height: 455px;
+	height: 470px;
 }
 .containerLove__blocksecond {
 	width: 40vw;
@@ -43,6 +43,7 @@ main {
 }
 .containerLove__paragrafo {
 	width: 300px;
+	text-align: center;
 	font-size: 16px;
 }
 .containerObjetivos {
@@ -82,7 +83,7 @@ main {
 }
 .containerProdutos {
 	width: 100%;
-	height: 55vh;
+	height: 56vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -93,7 +94,7 @@ main {
 	height: 55vh;
 }
 .containerProdutos__img {
-	height: 380px;
+	height: 370px;
 }
 .containerProdutos__blockList {
 	width: 30%;
@@ -116,30 +117,93 @@ li {
 	.containerLove {
 		height: 135vh;
 		flex-direction: column;
-		background-color: red;
+	}
+	.containerLove__blocksecond {
+		margin-top: 10px;
+	}
+	.containerObjetivos {
+		height: 96vh;
 	}
 	.containerObjetivos__blockfirst {
 		width: 100%;
 		height: 35vh;
 		flex-direction: row;
-		background-color: blue;
 	}
 	.containerObjetivos__blocksecond {
 		width: 100%;
-		height: 90vh;
-		background-color: pink;
+		height: 55vh;
 		margin: 0;
 	}
 	.containerObjetivos__title {
 		width: 65%;
+		text-align: center;
+		font-size: 18px;
 		margin: 0;
+	}
+	.containerObjetivos__table {
+    	width: 520px;
 	}
 	.containerProdutos {
 		width: 100%;
-		height: 55vh;
-		background-color: yellow;
+		height: 60vh;
 	}
 	.containerProdutos__img {
 		height: 302px;
+	}
+	.containerProdutos__paragrafo {
+		font-size: 14px;
+	}
+	li {
+		font-size: 14px;
+	}
 }
+@media (max-width: 604px) {
+	.containerObjetivos__photos {
+		height: 140px;
+	}
+	.containerObjetivos__table {
+    	width: 460px;
+    }
+	.containerProdutos{
+		height: 60vh;
+		flex-direction: column;
+	}
+	.containerProdutos__blockfirst {
+	    width: 50%;
+	    height: 30vh;
+	}
+	.containerProdutos__img {
+    	height: 160px;
+	}
+	.containerProdutos__paragrafo {
+	    width: 30vw;
+	    font-size: 13px;
+	}
+	li {
+    	font-size: 13px;
+	}
+}
+@media (max-width: 425px) {
+	.containerLove__img {
+		height: 360px;
+	}
+	.containerObjetivos {
+		height: 55vh;
+	}
+	.containerObjetivos__blockfirst {
+		height: 20vh;
+	}
+	.containerObjetivos__photos {
+		height: 110px;
+	}
+	.containerObjetivos__blocksecond {
+		height: 35vh;
+	}
+	.containerObjetivos__title {
+		width: 80%;
+		font-size: 10px;
+	}
+	.containerObjetivos__table {
+		width: 350px;
+	}
 }
